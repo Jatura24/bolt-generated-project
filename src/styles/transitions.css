@@ -1,0 +1,16 @@
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.score-popup-enter-active,
+.score-popup-leave-active {
+  transition: all 0.5s ease;
+}
+
+.score-popup-enter-from,
+.score-popup-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}

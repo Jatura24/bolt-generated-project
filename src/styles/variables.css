@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #2D2424;
+  --secondary-color: #8B7355;
+  --accent-color: #E6B17E;
+  --background-color: #F5F6F8;
+  
+  --font-family: 'Plus Jakarta Sans', sans-serif;
+  
+  --border-radius-sm: 0.375rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.5rem;
+}
